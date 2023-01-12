@@ -3,6 +3,9 @@ FROM node:19.4.0
 
 # Metadata informatiion on the image (optional)
 LABEL mainainer="Jackson Bingham <bingham.jackson49@gmail.com>"
+LABEL description="A simple nodejs app that dislays the hostname."
+LABEL cohort="15"
+LABEL animal="The animal that was choesen on the first day of the module"
 
 # Set the working folder that will conatain our node application. This command also
 # set the current workign directory in the conainer to /app.
